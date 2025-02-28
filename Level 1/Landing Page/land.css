@@ -1,0 +1,176 @@
+body{
+    font-family: "Josefin Sans", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+header{
+    text-align: center;
+    padding: 20px 0; 
+    background-color:#2c3e50;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-size: 2.5rem;
+    transition: color 0.5 ease;
+}
+header:hover{
+    color:#18bc9c;
+}
+nav ul{
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition:color 0.2 ease;
+}
+nav ul li a:hover{
+    color: #18bc9c;
+}
+
+#banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('camp1.jpg');
+    background-size:cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: #fff;
+    text-align: center;
+
+}
+#banner h1{
+    font-size: 3rem;
+    margin: 0;
+}
+#banner h2{
+    font-size: 1.5rem;
+    margin: 10px 0 0;
+
+}
+#logo{
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    
+
+}
+#logo img{
+    max-width: 150px;
+    height: auto;
+    
+}
+#image{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ecf0f1;
+    flex-wrap: wrap;
+    background-color: #ecf0f1;
+
+}
+#image img{
+    max-width: 30%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease
+
+}
+ #image img:hover{
+    transform: scale(1.05);
+ }
+ .social-media {
+    background-color: #2c3e50; 
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.social-media a {
+    color: #fff; 
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.social-media a:hover {
+    color: #18bc9c; 
+}
+
+
+.social-media a:nth-child(1):hover {
+    color: #3b5998; 
+}
+
+
+.social-media a:nth-child(2):hover {
+    color: #1da1f2; 
+}
+
+
+.social-media a:nth-child(3):hover {
+    color: #e1306c; 
+}
+
+
+.social-media a:nth-child(4):hover {
+    color: #0077b5; 
+}
+ @media (max-width: 768px) {
+    #banner h1 {
+        font-size: 2rem;
+    }
+
+    #banner h2 {
+        font-size: 1.2rem;
+    }
+
+    #image img {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    #banner h1 {
+        font-size: 1.5rem;
+    }
+
+    #banner h2 {
+        font-size: 1rem;
+    }
+
+    #image img {
+        max-width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+
+
+ 
+
+
